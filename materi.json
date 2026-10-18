@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "last_updated": "2026-10-18",
+  "changelog": "Penambahan kisah Nabi Yunus, Raja Thalut, serta soal kuiz baru.",
+  "valid_codes": ["QURANPRO", "BERKAH01", "SAHABAT99"],
+  "targets": {
+    "harian": [
+      { "id": "t1", "text": "Tilawah Al-Qur'an minimal 1 halaman", "done": false },
+      { "id": "t2", "text": "Murajaah hafalan Juz 30 (minimal 5 ayat)", "done": false },
+      { "id": "t3", "text": "Membaca 1 Kisah Hikmah Al-Qur'an di aplikasi", "done": false },
+      { "id": "t4", "text": "Membaca Surah Al-Mulk sebelum tidur", "done": false }
+    ],
+    "mingguan": [
+      { "id": "t5", "text": "Membaca Surah Al-Kahfi di hari Jumat", "done": false },
+      { "id": "t6", "text": "Menghafal 1 Surah pendek atau 5 ayat pilihan", "done": false },
+      { "id": "t7", "text": "Mempelajari 1 hukum bacaan Tajwid", "done": false }
+    ],
+    "bulanan": [
+      { "id": "t8", "text": "Menyelesaikan tilawah minimal 1 Juz penuh", "done": false },
+      { "id": "t9", "text": "Menyelesaikan seluruh Kuiz Pemahaman di aplikasi", "done": false },
+      { "id": "t10", "text": "Mengamalkan sedekah rutin bulanan", "done": false }
+    ]
+  },
+  "stories": [
+    {
+      "id": "s1",
+      "title": "Kisah Pemuda Ashabul Kahfi",
+      "ref": "QS. Al-Kahfi: 9-26",
+      "pro": false,
+      "body": "Sekelompok pemuda beriman mempertahankan akidah mereka dari kezaliman raja Dikyanus. Mereka berlindung di dalam gua dan memohon rahmat-Nya. Allah kemudian menidurkan mereka selama 309 tahun hingga zaman berganti menjadi negeri yang beriman.",
+      "moral": "Siapa yang meninggalkan sesuatu demi mempertahankan iman kepada Allah, maka Allah akan menjaganya dengan cara yang tak terduga."
+    },
+    {
+      "id": "s2",
+      "title": "Doa Nabi Yunus di Dalam Perut Paus",
+      "ref": "QS. Al-Anbiya: 87-88",
+      "pro": false,
+      "body": "Ketika Nabi Yunus berada dalam tiga kegelapan (perut ikan, lautan dalam, dan malam hari), beliau tidak berputus asa dan terus bertasbih: 'Laa ilaaha illa Anta subhaanaka innii kuntu minaz zhaalimiin'. Allah pun menyelamatkan beliau.",
+      "moral": "Pengakuan atas kekhilafan diri dan berzikir mengingat Allah adalah kunci jalan keluar dari kesulitan paling berat sekalipun."
+    },
+    {
+      "id": "s3",
+      "title": "Nabi Musa & Nabi Khidir: Rahasia Takdir",
+      "ref": "QS. Al-Kahfi: 60-82",
+      "pro": true,
+      "body": "Nabi Musa berguru kepada Nabi Khidir. Tiga peristiwa yang tampak merugikan—melubangi perahu orang miskin, membunuh seorang anak, dan menegakkan dinding di desa yang pelit—ternyata menyimpan perlindungan dan kasih sayang Allah yang luar biasa.",
+      "moral": "Terkadang kejadian tidak menyenangkan yang kita alami adalah cara Allah menyelamatkan kita dari musibah yang jauh lebih besar."
+    },
+    {
+      "id": "s4",
+      "title": "Pemilik Dua Kebun yang Lupa Bersyukur",
+      "ref": "QS. Al-Kahfi: 32-44",
+      "pro": true,
+      "body": "Seorang pria dikaruniai dua kebun anggur yang sangat subur dan dialiri sungai. Namun ia menjadi sombong dan meragukan hari kiamat. Akhirnya Allah menghancurkan seluruh kebunnya dalam semalam hingga ia menyesal.",
+      "moral": "Harta hanyalah titipan. Biasakan mengucap 'Masya Allah Laa Quwwata Illa Billah' agar hati terhindar dari sifat sombong."
+    },
+    {
+      "id": "s5",
+      "title": "Keteguhan Pasukan Thalut & Nabi Daud",
+      "ref": "QS. Al-Baqarah: 246-251",
+      "pro": true,
+      "body": "Pasukan Thalut yang berjumlah sedikit harus menghadapi tentara Jalut yang sangat besar. Setelah lulus ujian kesabaran saat melewati sungai, mereka berdoa memohon keteguhan hati. Atas izin Allah, pemuda Daud berhasil mengalahkan Jalut.",
+      "moral": "Keberhasilan tidak ditentukan oleh banyaknya jumlah, melainkan oleh kualitas iman, disiplin, dan kesabaran."
+    }
+  ],
+  "quizzes": [
+    {
+      "q": "Surah apakah yang dianjurkan dibaca setiap hari Jumat dan menjadi pelindung dari fitnah Dajjal?",
+      "opts": ["Al-Mulk", "Yasin", "Al-Kahfi", "Ar-Rahman"],
+      "ans": 2,
+      "explanation": "Surah Al-Kahfi memiliki keutamaan menyinari pembacanya di antara dua Jumat.",
+      "pro": false
+    },
+    {
+      "q": "Apa arti dari doa Nabi Yunus 'Laa ilaaha illa Anta subhaanaka innii kuntu minaz zhaalimiin'?",
+      "opts": [
+        "Ya Tuhan kami, berikanlah kami kebaikan di dunia dan akhirat",
+        "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang yang zalim",
+        "Cukuplah Allah menjadi Penolong kami dan sebaik-baik Pelindung",
+        "Ya Tuhan kami, berikanlah rahmat kepada kami dari sisi-Mu"
+      ],
+      "ans": 1,
+      "explanation": "Doa ini terdapat dalam QS. Al-Anbiya ayat 87 saat Nabi Yunus berada di dalam perut ikan besar.",
+      "pro": false
+    },
+    {
+      "q": "Berapa lama pemuda Ashabul Kahfi tertidur di dalam gua menurut perhitungan tahun Hijriah (Qamariyah)?",
+      "opts": ["100 Tahun", "300 Tahun", "309 Tahun", "950 Tahun"],
+      "ans": 2,
+      "explanation": "Disebutkan dalam QS. Al-Kahfi ayat 25: 'Dan mereka tinggal dalam gua mereka tiga ratus tahun dan ditambah sembilan tahun.'",
+      "pro": true
+    },
+    {
+      "q": "Mengapa Nabi Khidir melubangi perahu milik orang-orang miskin yang telah memberi tumpangan?",
+      "opts": [
+        "Agar perahu tersebut tidak dirampas oleh raja zalim yang mengambil setiap perahu bagus",
+        "Karena perahu tersebut sudah tua dan harus diganti",
+        "Untuk menguji kesabaran pemilik perahu",
+        "Agar air yang masuk membersihkan lantai perahu"
+      ],
+      "ans": 0,
+      "explanation": "Dalam QS. Al-Kahfi ayat 79 dijelaskan bahwa di hadapan mereka ada seorang raja yang merampas setiap perahu yang tidak cacat.",
+      "pro": true
+    },
+    {
+      "q": "Kalimat apa yang diajarkan dalam Surah Al-Kahfi ayat 39 saat melihat nikmat agar kita tidak sombong?",
+      "opts": [
+        "Inna lillahi wa inna ilaihi raji'un",
+        "Masya Allah, laa quwwata illa billah",
+        "Astaghfirullahal 'azhim",
+        "Hasbunallah wa ni'mal wakil"
+      ],
+      "ans": 1,
+      "explanation": "Mengucapkan 'Masya Allah, laa quwwata illa billah' (Sungguh atas kehendak Allah semua ini terwujud, tiada kekuatan kecuali dengan pertolongan Allah).",
+      "pro": true
+    }
+  ]
+}
